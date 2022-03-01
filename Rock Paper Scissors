@@ -54,8 +54,8 @@ const determineWinner = (userChoice, computerChoice) => {
 
 };
 const playGame = () => {
-    const userChoice = getUserChoice('rock');
-    const computerChoice = getComputerChoice();
+    var userChoice = getUserChoice('rock');
+    var computerChoice = getComputerChoice();
         return userChoice;
         return computerChoice;
 };
